@@ -26,16 +26,17 @@ main header {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  z-index: 10;
 }
 
-/* line 26, ../sass/_main.scss */
+/* line 27, ../sass/_main.scss */
 #burger {
   width: 50px;
   height: 50px;
   background: blueviolet;
 }
 
-/* line 32, ../sass/_main.scss */
+/* line 33, ../sass/_main.scss */
 #menu {
   display: none;
   height: 100vh;
@@ -43,7 +44,7 @@ main header {
   flex-direction: column;
   align-items: center;
 }
-/* line 38, ../sass/_main.scss */
+/* line 39, ../sass/_main.scss */
 #menu span {
   cursor: pointer;
   font-size: 15px;
@@ -54,7 +55,19 @@ main header {
 #pong {
   height: 100vh;
   width: 100vw;
-  background: aqua;
+  position: relative;
+}
+
+/* line 7, ../sass/_pong.scss */
+#title {
+  position: absolute;
+  background-color: transparent;
+  top: 50%;
+  left: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  transform: translateX(-50%) translateY(-50%);
 }
 
 /* line 1, ../sass/_aboutMe.scss */
