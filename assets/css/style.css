@@ -1,0 +1,86 @@
+/* line 1, ../sass/_main.scss */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* line 6, ../sass/_main.scss */
+body {
+  overflow: hidden;
+}
+
+/* line 10, ../sass/_main.scss */
+main {
+  position: relative;
+  height: 100vh;
+  width: 100vw;
+}
+/* line 14, ../sass/_main.scss */
+main header {
+  position: fixed;
+  width: 100px;
+  height: 100px;
+  right: 5%;
+  top: 5%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* line 26, ../sass/_main.scss */
+#burger {
+  width: 50px;
+  height: 50px;
+  background: blueviolet;
+}
+
+/* line 32, ../sass/_main.scss */
+#menu {
+  display: none;
+  height: 100vh;
+  width: 10vw;
+  flex-direction: column;
+  align-items: center;
+}
+/* line 38, ../sass/_main.scss */
+#menu span {
+  cursor: pointer;
+  font-size: 15px;
+  margin-top: 10px;
+}
+
+/* line 1, ../sass/_pong.scss */
+#pong {
+  height: 100vh;
+  width: 100vw;
+  background: aqua;
+}
+
+/* line 1, ../sass/_aboutMe.scss */
+#about-me {
+  height: 100vh;
+  width: 100vw;
+  background: red;
+}
+
+/* line 1, ../sass/_skills.scss */
+#skills {
+  height: 100vh;
+  width: 100vw;
+  background: green;
+}
+
+/* line 1, ../sass/_projects.scss */
+#projects {
+  height: 100vh;
+  width: 100vw;
+  background: yellow;
+}
+
+/* line 1, ../sass/_contact.scss */
+#contact {
+  height: 100vh;
+  width: 100vw;
+  background: black;
+}
